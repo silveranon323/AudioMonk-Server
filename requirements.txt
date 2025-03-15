@@ -3,3 +3,4 @@ flask_cors
 librosa
 numpy
 sklearn.preprocessing
+gunicorn
