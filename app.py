@@ -24,7 +24,7 @@ genre_type = {
 }
 scaler = MinMaxScaler()
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}}) 
 with open("models.p", "rb") as f:
     models = pickle.load(f)
 
