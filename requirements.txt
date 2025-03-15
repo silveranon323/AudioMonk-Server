@@ -3,4 +3,3 @@ flask_cors
 librosa
 numpy
 sklearn.preprocessing
-sklearn
